@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="index.css"/>
+    <title>CatPhotoApp</title>
+</head>
+<body>
+    <h1>Hey there .... kitty here</h1>
+    <h2>Ab Maza aayega Bhidu</h2>
+    <script src="index.js"></script>
+
+    <div class="boxes">
+        <h3 class="box2"> ....</h3>
+        <h3 class="box2"> ....</h3>
+    </div>
+    
+    <main style = "padding-bottom: 0px; margin-bottom: -400px">
+        <!--TODO: Add links to jugaad-->
+        <p class="box">Click here to view more <a href="#" target="_blank">cat photos</a></p>
+<center>
+        <div class="container">
+            <div class="column">
+                <a href="#"><img class="smaller-image thick-black-border" src="https://cdn.pixabay.com/photo/2024/03/07/10/38/simba-8618301_1280.jpg" alt="A cute dark cat lying on its bed."></a>
+                <div class = "ultag">
+                <p>things cats <em>love</em></p>
+                <ul>
+                    <li>Milk</li>
+                    <li>Buffalo Milk</li>
+                    <li>Cow milk</li>
+                </ul></div>
+            </div>
+            
+            <div class="column">
+                <img class="smaller-image thick-black-border" src="peacock.jpg" alt="peacock">
+                <div class = "ultag">
+                <p>things cats <strong>hate</strong></p>
+               
+                <ul >
+                    <li>water</li>
+                    <li>cold water</li>
+                    <li>hot water</li>
+                </ul></div>
+            </div>        
+            
+            <div class="column">
+                <img class="smaller-image thick-black-border" src="https://catonsvillecatclinic.com/wp-content/uploads/2020/07/angry-cat-at-bath-time.jpg" alt="Angry cat at bath time">
+                
+                <div style="height: 30px;" ></div>
+                <div class = "ultag">
+                <form id="cat-photo-form" action="/submit-cat-photo">
+                    <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" checked> indoor</label><br>
+                    <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor"> outdoor</label><br>
+                    
+                    <label for="loving"><input id="loving" type="checkbox" name="personality" checked> Loving</label><br>
+                    <label for="lazy"><input id="lazy" type="checkbox" name="personality"> Lazy</label><br>
+                    <label for="angry"><input id="angry" type="checkbox" name="personality"> Angry</label><br>
+                    
+                    <input type="text" placeholder="cat photo URL" required><br>
+                    <button type="submit">Submit</button><br>
+                </form></div>
+            </div>
+        </div></center>
+    </main>
+
+    <footer>
+        <p>NO Copyright - <a href="https://freecodecamp.org">freeCodeCamp.org</a></p>
+    </footer>
+   <center> 
+    <button class="button" type="ok" style = color:blue >ok</button> </center>
+</body>
+</html>
